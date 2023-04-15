@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,3 +12,18 @@ body {
   height: 100vh;
 }
 
+.container {
+  background-color: #fff;
+  width: 400px;
+  padding: 50px 30px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+}
+
+.container *:not(i) {
+  font-family: "Rubik", sans-serif;
+}
