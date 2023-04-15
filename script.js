@@ -12,3 +12,10 @@ function setDirection(value, _this) {
   _this.classList.add("active");
   currentDirection = value;
 }
+
+function generateCode() {
+  outputCode.value = `background-image: linear-gradient(${currentDirection}, ${colorOne.value}, ${colorTwo.value})`;
+  document.getElementsByTagName(
+    "BODY"
+  )[0].style.backgroundImage = `linear-gradient(${currentDirection}, ${colorOne.value}, ${colorTwo.value})`;
+}
