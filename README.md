@@ -15,7 +15,7 @@
   <img alt="" src=".github/image2.png">
 </p>
 
-## Translator App
+## Gradient Generator App
 
 ## 🚀 Tecnologias
 
@@ -27,9 +27,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Tradutor de línguas.
+App de gerador de cores gradiente.
 
-Aula do canal [AsmrProg](https://www.youtube.com/watch?v=WGRIMv790UI)
+Aula do canal [AsmrProg](https://www.youtube.com/watch?v=zUOunkcZcjI)
 
 ## 🚀 Como Rodar
 
