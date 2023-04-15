@@ -27,3 +27,23 @@ body {
 .container *:not(i) {
   font-family: "Rubik", sans-serif;
 }
+
+.colors {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+input[type="color"] {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  width: 100px;
+  height: 45px;
+  cursor: pointer;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border-radius: 20px;
+  border: none;
+}
